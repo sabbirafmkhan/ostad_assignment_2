@@ -37,7 +37,8 @@ class MyApp extends StatelessWidget {
         ),
         appBarTheme: AppBarTheme(
           backgroundColor: Colors.blueGrey,
-          titleTextStyle: TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+          titleTextStyle: TextStyle(
+              color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
           iconTheme: IconThemeData(color: Colors.white),
         ),
       ),
